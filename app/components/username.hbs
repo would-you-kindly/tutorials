@@ -1,0 +1,7 @@
+<h4 class="username">
+    {{@name}}
+    {{!-- Проверяем, передается ли в компонент атрибут @localTime --}}
+    {{#if @localTime}}
+    <span class="local-time">their local time is {{@localTime}}</span>
+    {{/if}}
+</h4>
